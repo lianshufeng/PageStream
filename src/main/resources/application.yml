@@ -1,0 +1,26 @@
+#mongodb
+spring:
+  application:
+    name: PageStream
+  data:
+    mongodb:
+      host: "127.0.0.1"
+      database: "pagestream"
+
+
+
+
+#TaskManager
+task:
+  maxTaskCount: 5
+  taskSleepTime : 5000
+  debug: false
+  proxy: true
+  incognito: false
+
+
+#代理
+proxy:
+  order: 559291635196737
+  minCount: 2
+  num: 3
